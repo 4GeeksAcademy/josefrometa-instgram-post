@@ -1,0 +1,61 @@
+body{
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.instagram-post{
+    background: white;
+    position: center;
+    width: 500px;
+    height: 700px;
+    position: relative;
+    margin: 0px auto;
+}
+.post-header{
+display: flex;
+}
+.post-left-header{
+display: flex;
+margin-left: 15px;
+margin-top: 15px;
+margin-bottom: 5px;
+width: 90%;
+}
+.post-left-header p{
+    list-style: none;
+    flex-direction: column;
+    margin: 0%;
+}
+.post-left-header i{
+    
+    text-align: center;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.post-right-header{
+float: right;
+margin-top: 15px;
+font-size: 30px;
+}
+.post-body{
+    width: 500px;
+    height: 400px ;
+    overflow: hidden;
+    text-align: center;
+}
+
+.post-footer{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.icons{
+display: flex;
+}
+.likes{
+    font-size: 30px;
+width: 90%;
+}
+.save{
+float: right;
+font-size: 30px;
+}
