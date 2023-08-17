@@ -1,6 +1,10 @@
 body{
     background: black;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .instagram-post{
@@ -8,7 +12,6 @@ body{
     position: center;
     width: 500px;
     height: 700px;
-    position: relative;
     margin: 0px auto;
 }
 .post-header{
@@ -39,14 +42,21 @@ font-size: 30px;
 }
 .post-body{
     width: 500px;
-    height: 400px ;
+    height: auto ;
     overflow: hidden;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.post-body img{
+    width: 100%;
+    
 }
 
 .post-footer{
-    margin-top: 15px;
-    margin-left: 15px;
+   padding: 20px;
 }
 .icons{
 display: flex;
